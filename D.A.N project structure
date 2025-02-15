@@ -1,0 +1,30 @@
+D.A.N.-Travel-Bot/
+├── README.md                  # Project overview and setup instructions
+├── .gitignore                 # Files to ignore in Git
+├── package.json               # Node.js dependencies and scripts
+├── src/
+│   ├── bot/                   # Bot logic and interactions
+│   │   ├── index.js           # Main bot entry point
+│   │   ├── commands/          # Bot commands (e.g., tips, polls)
+│   │   │   ├── postTravelTip.js
+│   │   │   ├── startPoll.js
+│   │   │   └── userRecognition.js
+│   │   └── utils/             # Utility functions (e.g., scheduling)
+│   │       └── scheduler.js
+│   ├── database/              # Database connection and models
+│   │   ├── index.js           # Database setup
+│   │   └── models/            # Database models
+│   │       └── Tip.js
+│   ├── blockchain/            # ICP blockchain integration
+│   │   ├── index.js           # Smart contract interactions
+│   │   └── contracts/         # Smart contract code (Motoko)
+│   │       └── rewards.mo
+│   ├── config/                # Configuration files
+│   │   └── config.js          # API keys, tokens, and settings
+│   └── ai/                    # AI-powered features
+│       └── recommendations.js # Personalized travel recommendations
+├── scripts/                   # Helper scripts (e.g., data population)
+│   └── populate-db.js         # Script to populate the database with travel tips
+└── tests/                     # Unit and integration tests
+    ├── bot.test.js            # Test cases for the bot
+    └── blockchain.test.js     # Test cases for blockchain integration
