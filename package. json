@@ -1,0 +1,22 @@
+{
+  "name": "dan-travel-bot",
+  "version": "1.0.0",
+  "description": "D.A.N. Travel Bot for Out&About Portal",
+  "main": "src/bot/index.js",
+  "scripts": {
+    "start": "node src/bot/index.js",
+    "test": "jest",
+    "populate-db": "node scripts/populate-db.js"
+  },
+  "dependencies": {
+    "axios": "^1.5.0",
+    "dotenv": "^16.3.1",
+    "node-schedule": "^2.1.1",
+    "openai": "^4.0.0",
+    "@dfinity/agent": "^0.15.0",
+    "mongoose": "^7.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.6.0"
+  }
+}
