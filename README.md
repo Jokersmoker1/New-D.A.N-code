@@ -1,5 +1,3 @@
-# New-D.A.N-code
-
 # D.A.N.-Travel-Bot/
 
 ## README.md
